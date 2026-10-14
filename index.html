@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OldPeakLab</title>
+<meta name="description" content="OldPeakLab – kleine Spiele für die ganze Familie.">
+<link rel="icon" href="soccerwolf/icon.png">
+<style>
+:root{--bg:#f6f7fb;--fg:#16202e;--muted:#5b6b82;--card:#ffffff;--line:#e3e8f0;--accent:#8a3dff}
+@media (prefers-color-scheme:dark){:root{--bg:#07091a;--fg:#eef2f8;--muted:#9fb0c6;--card:#111527;--line:#232a44;--accent:#b48cff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:48px 16px 64px}
+h1{margin:0;font-size:clamp(32px,6vw,44px);letter-spacing:-.5px}
+h1 b{color:var(--accent)}
+.lead{color:var(--muted);margin:6px 0 36px}
+h2{font-size:14px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.game{display:flex;gap:18px;align-items:center;padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.game img{width:88px;height:88px;border-radius:20px;flex:none}
+.game h3{margin:0 0 4px;font-size:22px}
+.game p{margin:0 0 8px;color:var(--muted)}
+.game a{color:var(--accent);font-weight:600;text-decoration:none;margin-right:14px}
+.game a:hover{text-decoration:underline}
+footer{margin-top:48px;color:var(--muted);font-size:14px}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<main>
+  <h1>Old<b>Peak</b>Lab</h1>
+  <p class="lead">Kleine Spiele für die ganze Familie. Ohne Werbung, ohne Tracking.</p>
+
+  <h2>Spiele</h2>
+  <div class="game">
+    <img src="soccerwolf/icon.png" alt="SoccerWolf-Icon">
+    <div>
+      <h3>SoccerWolf</h3>
+      <p>Das Werwolf-Spiel im Fussballstadion. 3 Schiris verstecken sich unter 12 Spielern – findest du sie?</p>
+      <a href="soccerwolf/datenschutz/">Datenschutz</a>
+    </div>
+  </div>
+
+  <footer>OldPeakLab · Michael Altenberger · Rotkreuz, Schweiz · <a href="mailto:oldpeaklab@gmail.com">oldpeaklab@gmail.com</a></footer>
+</main>
+</body>
+</html>
